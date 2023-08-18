@@ -20,5 +20,10 @@ export class AppController {
     return this.appService.getGoodbye();
   }
 
+  @Get('test1')
+  getTest1(): string {
+    return this.appService.getTest1();
+  }
+
 
 }
