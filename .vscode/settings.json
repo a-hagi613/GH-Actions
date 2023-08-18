@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/19280a54-c540-44f5-a28b-c52ef6f6866d/resourceGroups/myRG/providers/Microsoft.Web/sites/GA-nest-js",
+    "appService.deploySubpath": "."
+}
