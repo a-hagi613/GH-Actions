@@ -9,8 +9,4 @@ export class AppService {
   getGoodbye(): string {
     return 'Goodbye World!';
   }
-
-  getHome(): string {
-    return 'Welcome to the Home Page. Hit the /hello or /goodbye enpoints for more information';
-  }
 }
