@@ -20,7 +20,7 @@ describe('AppController', () => {
     });
 
     it('should return "Goodbyes World!"', () => {
-      expect(appController.getGoodbye()).toBe('Goodbyes World!');
+      expect(appController.getGoodbye()).toBe('Goodbyess World!');
     });
   });
 });
