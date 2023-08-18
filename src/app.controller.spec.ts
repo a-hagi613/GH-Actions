@@ -19,8 +19,12 @@ describe('AppController', () => {
       expect(appController.getHello()).toBe('Hello World!');
     });
 
-    it('should return "Goodbyes World!"', () => {
-      expect(appController.getGoodbye()).toBe('Goodbyess World!');
+    it('should return "Goodbye World!"', () => {
+      expect(appController.getGoodbye()).toBe('Goodbye World!');
+    });
+
+    it('should return "This is test endpoint 1"', () => {
+      expect(appController.getTest1()).toBe('This is test endpoint 1');
     });
   });
 });
