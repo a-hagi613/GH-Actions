@@ -11,6 +11,6 @@ export class AppService {
   }
 
   getHome(): string {
-    return 'Welcome to the Home Page. Hit the /hello or /goodbye enpoints for more information';
+    return 'Welcome to the Home Page. Hit the /hello or /goodbye enpoints to see more';
   }
 }
