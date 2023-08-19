@@ -24,7 +24,11 @@ export class AppController {
   getTest1(): string {
     return this.appService.getTest1();
   }
-  //test
+  
+  @Get('test2')
+  getTest2(): string {
+    return this.appService.getTest2();
+  }
 
 
 }

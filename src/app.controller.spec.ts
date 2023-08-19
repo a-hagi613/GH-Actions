@@ -26,5 +26,9 @@ describe('AppController', () => {
     it('should return "This is test endpoint 1"', () => {
       expect(appController.getTest1()).toBe('This is test endpoint 1');
     });
+
+    it('should return "This is test endpoint 2"', () => {
+      expect(appController.getTest2()).toBe('This is test endpoint 2');
+    });
   });
 });

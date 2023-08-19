@@ -17,4 +17,8 @@ export class AppService {
   getTest1(): string {
     return 'This is test endpoint 1';
   }
+
+  getTest2(): string {
+    return 'This is test endpoint 2';
+  }
 }
