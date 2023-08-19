@@ -10,22 +10,22 @@ export class AppController {
     return this.appService.getHome();
   }
 
-  @Get('hello')
+  @Get('/hello')
   getHello(): string {
     return this.appService.getHello();
   }
 
-  @Get('goodbye')
+  @Get('/goodbye')
   getGoodbye(): string {
     return this.appService.getGoodbye();
   }
 
-  @Get('test1')
+  @Get('/test1')
   getTest1(): string {
     return this.appService.getTest1();
   }
   
-  @Get('test2')
+  @Get('/test2')
   getTest2(): string {
     return this.appService.getTest2();
   }
