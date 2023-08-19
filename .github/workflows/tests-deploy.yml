@@ -1,7 +1,7 @@
 name: Unit tests, Final Build, CodeQL analysis, Docker image/container creation and Deployment to Azure
 
 on:
-  push:
+  pull_request:
     branches: [main]
 
 env:
@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [16.x, 18.x]
+        node-version: [18.x]
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
@@ -28,7 +28,7 @@ jobs:
     needs: build
     strategy:
       matrix:
-        node-version: [16.x, 18.x]
+        node-version: [18.x]
     steps:
       - uses: actions/checkout@v2
       - name: Use Node.js ${{ matrix.node-version }}
